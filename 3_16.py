@@ -131,3 +131,4 @@ def toReversedLinkedList(self, result: str) -> ListNode:
 
     return node  # prev해도 됌
 
+dd
