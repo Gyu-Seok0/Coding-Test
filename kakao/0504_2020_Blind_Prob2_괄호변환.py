@@ -14,7 +14,7 @@ def balance(p):
 def check_proper(p):  # 굳이 스택을 안쓰는 구나.
     cnt = 0
     for letter in p:
-        if letter == '(':
+        if letter == '(':환
             cnt += 1
         else:
             if cnt == 0:  # 균형잡히지 않음.("("4번이랑, ")"5번하면.. cnt = 0이 됌) -> 근데 조건을 너무 어렵게 표현한것일 수도 있음,.
