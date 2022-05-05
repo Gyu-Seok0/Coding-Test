@@ -30,3 +30,5 @@ def solution(words, queries):
             res = count_by_range(reversed_array[len(q)], q[::-1].replace("?",chr(96)), q[::-1].replace("?",chr(123)))
         answer.append(res)
     return answer
+
+
