@@ -1,4 +1,4 @@
-https://programmers.co.kr/learn/courses/30/lessons/42888
+#https://programmers.co.kr/learn/courses/30/lessons/42888
 # 내풀이
 def solution(record):
     id2name = dict()
