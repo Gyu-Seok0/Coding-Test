@@ -10,7 +10,7 @@ def solution(queue1, queue2):
     q1,q2 = deque(queue1), deque(queue2)
     target, rest = divmod(sum(q1) + sum(q2), 2)
     # 홀수인경우 제외
-    if rest != 0:
+    if rest != 0:w
         return -1
     
     cnt = 0
