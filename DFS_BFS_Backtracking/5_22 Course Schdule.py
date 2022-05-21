@@ -21,7 +21,7 @@ class Solution:
             return True
 
         visited = set()  # 이미 완벽히 Search한 node들에 대해서는 굳이 돌 필요가 없음.
-        traced = set()  # Cycle이 존재한다면, 결과적으로 서로를 가르키고 있는 것이므로 문제가 됌.
+        traced = set()  # Cycle이 존재한다면, 결과적으로 서로를 가르키고 있는 것이므로 문제가 됌
 
         for i in list(graph):
             if not dfs(i):
